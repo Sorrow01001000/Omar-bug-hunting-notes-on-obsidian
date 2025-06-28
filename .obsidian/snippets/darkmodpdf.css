@@ -1,0 +1,65 @@
+@media print {
+  /* General background and text */
+  body, .markdown-preview-view {
+    background-color: #000 !important;
+    color: #fff !important;
+    padding: 2rem !important;
+    font-family: "Inter", sans-serif;
+    line-height: 1.6;
+  }
+
+  /* Headings */
+  h1, h2, h3, h4, h5 {
+    color: #fff !important;
+    margin-top: 1.5rem !important;
+    page-break-after: avoid !important;
+  }
+
+  /* Paragraphs and content blocks */
+  p, ul, ol, pre, code, blockquote {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  /* Links */
+  a {
+    color: #4ea1f3 !important;
+    text-decoration: underline;
+  }
+
+  /* Code blocks */
+  pre, code {
+    background-color: #111 !important;
+    color: #00f7ff !important;
+    padding: 0.4rem;
+    border-radius: 5px;
+    font-size: 0.9rem;
+  }
+
+  /* Horizontal rules */
+  hr {
+    border-top: 1px solid #444 !important;
+    break-inside: avoid;
+    page-break-inside: avoid;
+    margin: 1.5rem 0;
+  }
+
+  /* Fix Obsidian callout decorations (like your white diamond) */
+  .callout, .callout[data-callout], .callout[data-callout*=""] {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+  }
+
+  /* Hide any SVGs, background shapes or extras */
+  svg, .callout-icon, .decoration {
+    display: none !important;
+  }
+
+  /* Prevent anything from splitting */
+  .markdown-preview-section {
+    page-break-inside: avoid !important;
+    break-inside: avoid-page !important;
+  }
+}

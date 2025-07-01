@@ -4,37 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "baad71bb3fef5e37",
+        "id": "d272b0f276e55c71",
         "type": "tabs",
         "children": [
           {
-            "id": "b4afabcf0ec4223c",
+            "id": "517fd060c007e250",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/DNS.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "DNS"
-            }
-          },
-          {
-            "id": "60b2d9b6fc919ca6",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Web Application Penetration Testing/Attachments/Pasted image 20250701050413.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250701050413"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Application Penetration Testing/Attachments/Pasted image 20250701050413.png",
+                "file": "Web Application Penetration Testing/Reset Password Vulnerabilites.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Pasted image 20250701050413"
+              "title": "Backlinks for Reset Password Vulnerabilites"
             }
           },
           {
@@ -126,12 +109,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web Application Penetration Testing/Attachments/Pasted image 20250701050413.png",
+                "file": "Web Application Penetration Testing/Reset Password Vulnerabilites.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Pasted image 20250701050413"
+              "title": "Outgoing links from Reset Password Vulnerabilites"
             }
           },
           {
@@ -155,13 +138,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Application Penetration Testing/Attachments/Pasted image 20250701050413.png",
+                "file": "Web Application Penetration Testing/Reset Password Vulnerabilites.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Pasted image 20250701050413"
+              "title": "Outline of Reset Password Vulnerabilites"
             }
           }
         ]
@@ -182,30 +165,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "60b2d9b6fc919ca6",
+  "active": "98655f73a90241b0",
   "lastOpenFiles": [
+    "Web Application Penetration Testing/Attachments/Pasted image 20250701094006.png",
+    "Web Application Penetration Testing/Attachments/Pasted image 20250701094301.png",
+    "Web Application Penetration Testing/Reset Password Vulnerabilites.md",
+    "Web Application Penetration Testing/Attachments/Pasted image 20250701094634.png",
+    "Web Application Penetration Testing/Attachments/Pasted image 20250701094445.png",
+    "Web Application Penetration Testing/Attachments/Pasted image 20250701094429.png",
+    "Web Application Penetration Testing/Attachments/Pasted image 20250701094412.png",
+    "Web Application Penetration Testing/Attachments/Pasted image 20250701094402.png",
+    "Web Application Penetration Testing/Attachments/Pasted image 20250701094308.png",
+    "Web Application Penetration Testing/Attachments/Pasted image 20250701094056.png",
+    "Web Application Penetration Testing/Attachments/Pasted image 20250701094046.png",
+    "Web Application Penetration Testing/Login Vulnerabilites.md",
+    "Web Application Penetration Testing/HTML Injection.md",
     "Web Application Penetration Testing/Registration Vulnerabilities.md",
-    "Web Application Penetration Testing/Attachments/Pasted image 20250701051449.png",
-    "Web Application Penetration Testing/Attachments/Pasted image 20250701051420.png",
-    "Web Application Penetration Testing/Attachments/Pasted image 20250701051343.png",
-    "Web Application Penetration Testing/Attachments/Pasted image 20250701051153.png",
-    "Web Application Penetration Testing/Attachments/Pasted image 20250701051113.png",
-    "Web Application Penetration Testing/Attachments/Pasted image 20250701051034.png",
-    "Web Application Penetration Testing/Attachments/Pasted image 20250701050928.png",
-    "Web Application Penetration Testing/Attachments/Pasted image 20250701050848.png",
-    "Web Application Penetration Testing/Attachments/Pasted image 20250701050650.png",
-    "Web Application Penetration Testing/Attachments/Pasted image 20250701050615.png",
-    "Web/DNS.md",
+    "Programming languages/Python.md",
     "Web Application Penetration Testing/SSRF/SSRF.md",
+    "Web Application Penetration Testing/Click Jacking.md",
+    "Web/Web Basics.md",
+    "Web Application Penetration Testing/CSRF/CSRF (XSRF).md",
+    "Web Application Penetration Testing/CSRF/Advanced CSRF.md",
+    "Web Application Penetration Testing/CORS/!CORS Hacking.md",
+    "Web/DNS.md",
     "Web Application Penetration Testing/SSRF/Attachments",
     "Web Application Penetration Testing/SSRF",
     "Web Application Penetration Testing/CORS/CORS Advanced.md",
-    "Web Application Penetration Testing/CORS/!CORS Hacking.md",
     "random things.md",
     "Web Application Penetration Testing/CORS/Attachments",
     "Web Application Penetration Testing/CORS",
-    "Web Application Penetration Testing/CSRF/Advanced CSRF.md",
-    "Web Application Penetration Testing/CSRF/CSRF (XSRF).md",
     "HackerRank Task.md",
     "javafx project.md",
     "Kali linux notes/Linux.md",
@@ -213,21 +202,15 @@
     "random things",
     "Web Application Penetration Testing/CSRF/attachments",
     "Web Application Penetration Testing/CSRF",
-    "Web Application Penetration Testing/HTML Injection.md",
     "Web Application Penetration Testing/XSS/XSS Advanced.md",
     "Web Application Penetration Testing/XSS/XSS Stored.md",
     "Web Application Penetration Testing/XSS/XSS Exploit.md",
     "Web Application Penetration Testing/XSS/Swagger Ui XSS and image upload XSS.md",
     "Web Application Penetration Testing/XSS/XSS DOM.md",
-    "Web Application Penetration Testing/Web Basics.md",
     "Web Application Penetration Testing/XSS/attachments",
     "Web Application Penetration Testing/XSS",
     "Burpsuite/Burpsuite 4.md",
     "Burpsuite/Burpsuite 3.md",
-    "Burpsuite/Burpsuite 1.md",
-    "Burpsuite/Attachments",
-    "Web/Virtual host.md",
-    "Web/Subdomain Takeover.md",
-    "Web/Sub Domain Enumeration.md"
+    "Burpsuite/Attachments"
   ]
 }

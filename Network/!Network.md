@@ -212,7 +212,68 @@ mon
 
 ![[Pasted image 20250204105429.png]]
 
+هنمشي بالترتيب ونعرف المفروض الداتا او طريقه عمل ال OSI Model.
+واول حاجه:
+ ال application layer بنبتدي من عندها وده يعتبر ال interface / portal للبرامج المحتاجه نت زي ال ويب ابليكشن او الويب براوزر و الاونلاين فيديو جيمز, فا ساعتها بقا الحاجات دي بتعمل engage لل app layer و تعتبر gateway للlayer البعديها.
+تاني حاجه:
+بناخد الداتا الجايه من ال app layer ونعديها علي ال layer البعديها الهيا ال presentation layer ونظبط الداتا دي ب format معروف لكل الاجهزه الموجوده علي الكوكب عشان تتعرض تبقي presentable بمعني دلوقتي لو الملف الترفع صوره فا ساعتها بنخليها JPG او مثلا الملف الاترفع بنخليه PDF , HTML دي الحاجات الpresentable المفروض ان كل الاجهزه متعارفه عليه او ال web عموما عشان كدا تقدر تفتح الصور عادي باستخدام اي browser او ال pdfs.
+وطبعا في ال layer دي بردو بنعمل Encryption للداتا عشان نحمي الداتا البتتنقل ومنخليش الهكر يشوف الحاجات دي و طبعا بنأمن الtraffic عن طريق الشهادات الهيا SSL, TLS.
+تالت حاجه:
+نروح للsession layer و خلينا نقول ان هوا ال بيحافظ علي ال connection بين الابليكشن بتاعك و السيرفر (الbrowser مثلا) العايزين الداتا توصله , ولما خلاص الداتا توصل هوا بيفصل الconnection.
+وعشان نعمل الconnections دي بنستخدم protocols معينه من اشهرها ال 
+L2TP => Layer 2 tunnling protocol. ===> هتشوفه علي طول في ال vpn connections.
+RTCP => remote transport control protocol. ===> بيساعد في تنظيم ال phone calls.
+H.245 => بيساعد في تنظيم ال video calls.
+وكمان ممكن نستخدم proxies وفي الغالب بسنتخدمها لو عايزين نخفي نفسنا واحنا علي النت.
 
+كدا ال 3 layers الاحنا شرحناهم دول بيبقو تحت مسمي واحد في ال TCP Model الهوا ال Application layer.
+
+رابع حاجه:
+ندخل في ال transport layer.
+الsession layer بيبعت الdata لل transport layer فا دلوقتي عايزين نودي الداتا للسيرفر التاني بيعملها ازاي ال transport layer ؟ 
+عن طريق ال protocols والهما TCP,UDP
+هما دول ال 2 main transport proctols, وشرحناهم فوق.
+طيب دلوقتي عايزين ن access موقع معين فا عشان نوصله فا قولنا عن طريق ال protocols, فا نفترض دلوقتي كتبنا كدا https://youtube.com ده كدا اكني بقوله انا عايز access لل ip address (server ) ده مثلا الهوا موجود علي port 443 > https ودي فايده ال port numbers عشان كدا مينفعش ميبقاش فيه port numbers ودي طريقه كمان لشكل كتابه ال اللينك الفوق > 173.194.191.167:443 فا هنلاحظ ان البورت نمبر مكتوب في الاخر وده المفروض اليتكتب بس عشان الyoutube وكدا فا هما عاملين domain name يعني مغيرين شكل ال ip ده ومدينله اسم.
+وفايده ال ports انها بتخلينا ان احنا نشغل كذا service علي سيرفر واحد. والسيرفر الواحد ده ممكن يبقي كذا حاجه RDP server, SSH server ,FTB server ,gaming server , etc.
+
+ممكن نتكلم حبه عن الports 
+Total number of ports from 0 to 65,535 => 65,536 ports in total.
+Port Range:-
+1- well-known (0-1023):-
+Reserved  for common services and protocols. 
+Examples:-
+TFTP: Trivial File Transfer Protocol- port 69 > UDP.
+SNTP: Simple Network time Protocol - port 123 > UDP.
+DHCP: Dynamic Host Configuration protocol- port 67 (server) / port 68 (Client )- UDP.
+HTTP: Hyper Text Transfer Protocol-port 80 > TCP.
+SMTP: Simple Mail transfer protocol - port 24 > TCP.
+FTP: File Transfer Protocol - port 20 (data )/port 21 (controlled) > TCP.
+DNS: Domain name system - port 53 > UDP/TCP.
+
+2-Registered port (1024- 49151):-
+Assigned to specific services or Applications by organizations.
+Examples:-
+Port 3306:  MYSQL Database.
+port 3389: Remote Desk Protocol(RDP).
+
+3-Dynamic or private ports (49152-65353):-
+Used for temporary or custom connections, often in client-server communications.
+Examples:-
+when your computer connects to website, it uses a random port from this range.
+
+Quick Facts:-
+1- Ports allow multiple services to run a single device.
+2- tools like Nmap are used to scan ports during Pentesting.
+3- Open ports can be vulnerable entry points if not secured properly.
+
+بس دي البيحصل في ال transport layer وعمتا وبس مش هتحتاج تعرف اظن اكتر من كدا بس لو عايز تعرف 
+هكمل
+المفروض العمليه دي كلها بنعمل حاجه اسمها Encapsulation للداتا فا دلوقتي الداتا بعد ما حددنا ال port الهنستخدمه عشان نبعت الداتا فا بنغلفه مثلا بالIp address الهنبعتله ويبقي attached في الhead بتاع ال layer وبما أننا في layer 4 فا اسم الداتا المتغلفه دي (segment).
+بعد كدا نروح نبعت لل layer 3  واحنا عارفين ان احنا بنتعامل في layer 3 بال IPs عشان الراوترز وكدا فا دلوقتي بردو الداتا الجاتلنا دي بناخدها بنعمل بردو Encapsulation فا نغلف ال داتا الجت دي بال source IP وال destination ip الهوا الip الهنبعتله الداتا ويبقي attached بردو للlayer 3 header و بكدا بعد عمليه التغفيل هيبقي اسمه الملف المتغلف ده (Packet) والPacket ده زي ما قولنا اكنه بيدي بقا ال router direction الهوا الdest. IP.
+وبعد كدا نروح ل layer 2 الهوا ال Data link هنا بنتعامل مع ال MAC addresses وبندي ال Switch directions وبتبقي attached ل layer 2 header واسم الداتا المتغلفه في ال layer ده (Frames).
+وبس بعد ما غلفنا الداتا وظبطناها بنروح للphysical layer وبتتبدي الداتا تروح للسيرفر التاني عن طريق ال ethernet cables, وبنبدأ بقا ال OSI Model من تحت فا بنعمل Dencaspulate للداتا وحده واحده لحد ما توصل كامله للسيرفر.
+
+وهي دي طريقه عمل ال OSI Model.
 
 -------------------------------------------------------------------------------
 shodan.io for ips.

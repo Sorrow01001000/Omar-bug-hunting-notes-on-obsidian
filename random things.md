@@ -11,3 +11,4 @@ https://github.com/kimocoder/wifite2
 
 
 -----------------------------------------------
+https://github.com/zamsyt/obsidian-snippets/wiki/Dark-PDF-export

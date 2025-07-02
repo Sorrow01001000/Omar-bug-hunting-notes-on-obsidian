@@ -11,10 +11,14 @@
             "id": "517fd060c007e250",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "random things.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "random things"
             }
           }
         ]
@@ -165,19 +169,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "98655f73a90241b0",
+  "active": "517fd060c007e250",
   "lastOpenFiles": [
-    "Web Application Penetration Testing/Attachments/Pasted image 20250701094006.png",
-    "Web Application Penetration Testing/Attachments/Pasted image 20250701094301.png",
+    "Web Application Penetration Testing/Attachments/Pasted image 20250702005345.png",
+    "Web Application Penetration Testing/2FA Vulnerabilites.md",
+    "Web Application Penetration Testing/Attachments/Pasted image 20250702104346.png",
+    "Web Application Penetration Testing/Attachments/Pasted image 20250702104304.png",
+    "Web Application Penetration Testing/Attachments/Pasted image 20250702104141.png",
+    "Web Application Penetration Testing/Attachments/Pasted image 20250702104041.png",
+    "Web Application Penetration Testing/Attachments/Pasted image 20250702103811.png",
+    "Web Application Penetration Testing/Attachments/Pasted image 20250702103458.png",
+    "Web Application Penetration Testing/Attachments/Pasted image 20250702103338.png",
+    "Web Application Penetration Testing/Attachments/Pasted image 20250702103136.png",
+    "Web Application Penetration Testing/Attachments/Pasted image 20250702103123.png",
+    "Web Application Penetration Testing/Attachments/Pasted image 20250702103100.png",
     "Web Application Penetration Testing/Reset Password Vulnerabilites.md",
-    "Web Application Penetration Testing/Attachments/Pasted image 20250701094634.png",
-    "Web Application Penetration Testing/Attachments/Pasted image 20250701094445.png",
-    "Web Application Penetration Testing/Attachments/Pasted image 20250701094429.png",
-    "Web Application Penetration Testing/Attachments/Pasted image 20250701094412.png",
-    "Web Application Penetration Testing/Attachments/Pasted image 20250701094402.png",
-    "Web Application Penetration Testing/Attachments/Pasted image 20250701094308.png",
-    "Web Application Penetration Testing/Attachments/Pasted image 20250701094056.png",
-    "Web Application Penetration Testing/Attachments/Pasted image 20250701094046.png",
     "Web Application Penetration Testing/Login Vulnerabilites.md",
     "Web Application Penetration Testing/HTML Injection.md",
     "Web Application Penetration Testing/Registration Vulnerabilities.md",
@@ -210,7 +216,6 @@
     "Web Application Penetration Testing/XSS/attachments",
     "Web Application Penetration Testing/XSS",
     "Burpsuite/Burpsuite 4.md",
-    "Burpsuite/Burpsuite 3.md",
     "Burpsuite/Attachments"
   ]
 }

@@ -8,35 +8,49 @@
         "type": "tabs",
         "children": [
           {
-            "id": "517fd060c007e250",
+            "id": "e0a61699c29f2aa9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "random things.md",
+                "file": "Road Map Soc.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "random things"
+              "title": "Road Map Soc"
             }
           },
           {
-            "id": "e6d1e4960ed30108",
+            "id": "b3050a80aff5c246",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network/!Network.md",
+                "file": "Network/Nmap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "!Network"
+              "title": "Nmap"
+            }
+          },
+          {
+            "id": "04fce3c3fd2ab988",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web Application Penetration Testing/XSS/XSS  payloads.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "XSS  payloads"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -184,24 +198,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e6d1e4960ed30108",
+  "active": "98655f73a90241b0",
   "lastOpenFiles": [
+    "Network/Nmap.md",
+    "Web Application Penetration Testing/XSS/XSS  payloads.md",
+    "Network/Network scanning.md",
+    "random things.md",
+    "Road Map Soc.md",
+    "random things/Pasted image 20250628041916.png",
+    "Web Application Penetration Testing/Bypass Rate Limit.md",
+    "Pasted image 20250723172801.png",
+    "Pasted image 20250723172555.png",
+    "Pasted image 20250723172334.png",
+    "Pasted image 20250723172248.png",
+    "Pasted image 20250723152911.png",
+    "Web Application Penetration Testing/Attachments/Pasted image 20250721063451.png",
+    "Web Application Penetration Testing/Attachments/Pasted image 20250721063553.png",
+    "Web Application Penetration Testing/Broken Session Management.md",
+    "Web Application Penetration Testing/Attachments/Pasted image 20250721065753.png",
+    "Web Application Penetration Testing/Attachments/Pasted image 20250721064746.png",
+    "Web/Web Basics.md",
+    "Burpsuite/Burpsuite 1.md",
+    "Network/!Network.md",
     "Network/Acunetix.md",
     "Network/WireShark/WireShark.md",
-    "Network/!Network.md",
-    "Road Map Soc.md",
-    "random things.md",
-    "Web Application Penetration Testing/Attachments/Pasted image 20250702005345.png",
     "Web Application Penetration Testing/2FA Vulnerabilites.md",
-    "Web Application Penetration Testing/Attachments/Pasted image 20250702104346.png",
-    "Web Application Penetration Testing/Attachments/Pasted image 20250702104304.png",
-    "Web Application Penetration Testing/Attachments/Pasted image 20250702104141.png",
-    "Web Application Penetration Testing/Attachments/Pasted image 20250702104041.png",
-    "Web Application Penetration Testing/Attachments/Pasted image 20250702103811.png",
-    "Web Application Penetration Testing/Attachments/Pasted image 20250702103458.png",
-    "Web Application Penetration Testing/Attachments/Pasted image 20250702103338.png",
-    "Web Application Penetration Testing/Attachments/Pasted image 20250702103136.png",
-    "Web Application Penetration Testing/Attachments/Pasted image 20250702103123.png",
     "Web Application Penetration Testing/Reset Password Vulnerabilites.md",
     "Web Application Penetration Testing/Login Vulnerabilites.md",
     "Web Application Penetration Testing/HTML Injection.md",
@@ -209,7 +230,6 @@
     "Programming languages/Python.md",
     "Web Application Penetration Testing/SSRF/SSRF.md",
     "Web Application Penetration Testing/Click Jacking.md",
-    "Web/Web Basics.md",
     "Web Application Penetration Testing/CSRF/CSRF (XSRF).md",
     "Web Application Penetration Testing/CSRF/Advanced CSRF.md",
     "Web Application Penetration Testing/CORS/!CORS Hacking.md",
@@ -220,15 +240,9 @@
     "Web Application Penetration Testing/CORS/Attachments",
     "Web Application Penetration Testing/CORS",
     "HackerRank Task.md",
-    "javafx project.md",
-    "Kali linux notes/Linux.md",
-    "Web Application Penetration Testing/XSS/XSS Reflected.md",
     "random things",
     "Web Application Penetration Testing/CSRF/attachments",
     "Web Application Penetration Testing/CSRF",
-    "Web Application Penetration Testing/XSS/XSS Advanced.md",
-    "Web Application Penetration Testing/XSS/XSS Stored.md",
-    "Web Application Penetration Testing/XSS/XSS Exploit.md",
     "Web Application Penetration Testing/XSS/attachments",
     "Web Application Penetration Testing/XSS",
     "Burpsuite/Attachments"

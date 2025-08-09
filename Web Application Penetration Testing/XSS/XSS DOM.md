@@ -29,3 +29,7 @@
 ![[Pasted image 20250307201703.png]]
 فكره لل java script 
 ![[Pasted image 20250307201726.png]]
+
+
+
+lang + "'><svg onload=confirm()>
